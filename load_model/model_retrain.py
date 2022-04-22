@@ -67,7 +67,7 @@ def main(argv=None):
 if __name__ == '__main__':
     flags.DEFINE_string("dataset", "census", "the name of dataset")
     flags.DEFINE_string("model_path", "../re-model/", "the name of path for saving model")
-    flags.DEFINE_integer('nb_epochs', 100, 'Number of epochs to train model')
+    flags.DEFINE_integer('nb_epochs', 1000, 'Number of epochs to train model')
     flags.DEFINE_integer('batch_size', 128, 'Size of training batches')
     flags.DEFINE_float('learning_rate', 0.01, 'Learning rate for training')
 
